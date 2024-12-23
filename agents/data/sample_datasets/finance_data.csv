@@ -1,0 +1,8 @@
+TransactionID,Date,Amount,Category,AccountID
+1,2024-01-01,1500,Salary,A123
+2,2024-01-05,-50,Groceries,A123
+3,2024-01-10,-200,Utilities,A123
+4,2024-01-15,-100,Entertainment,A123
+5,2024-01-20,3000,Salary,A124
+6,2024-01-25,-500,Rent,A124
+7,2024-01-30,-150,Transportation,A124

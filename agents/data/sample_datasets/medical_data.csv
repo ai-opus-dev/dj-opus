@@ -1,0 +1,6 @@
+PatientID,Name,Age,Gender,Diagnosis,DateOfVisit
+101,John Doe,45,M,Hypertension,2024-01-02
+102,Jane Smith,30,F,Diabetes,2024-01-04
+103,Michael Brown,55,M,Heart Disease,2024-01-08
+104,Emily Davis,40,F,Asthma,2024-01-12
+105,David Wilson,60,M,Arthritis,2024-01-18

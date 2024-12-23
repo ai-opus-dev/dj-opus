@@ -1,0 +1,31 @@
+[package]
+name = "my_substrate_pallet"
+version = "0.1.0"
+authors = ["Your Name <your.email@example.com>"]
+edition = "2021"
+description = "A custom Substrate pallet with agent registry, token, and governance functionality."
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+frame-support = { version = "4.0.0", default-features = false, features = ["std"] }
+frame-system = { version = "4.0.0", default-features = false, features = ["std"] }
+sp-runtime = { version = "4.0.0", default-features = false, features = ["std"] }
+sp-std = { version = "4.0.0", default-features = false }
+sp-core = { version = "4.0.0" }
+
+[build-dependencies]
+frame-benchmarking = { version = "4.0.0", default-features = false }
+
+[features]
+default = ["std"]
+std = [
+    "frame-support/std",
+    "frame-system/std",
+    "sp-runtime/std",
+    "sp-std/std",
+    "sp-core/std"
+]
+no_std = []
+
+[workspace]
+members = []

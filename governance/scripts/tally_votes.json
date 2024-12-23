@@ -1,0 +1,17 @@
+[
+  {
+    "voter": "0x12345",
+    "vote": true,
+    "tokens": 100
+  },
+  {
+    "voter": "0x67890",
+    "vote": false,
+    "tokens": 50
+  },
+  {
+    "voter": "0xabcde",
+    "vote": true,
+    "tokens": 200
+  }
+]
